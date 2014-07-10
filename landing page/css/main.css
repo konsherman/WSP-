@@ -8,6 +8,7 @@ body{background-color:  #66757f;font-family: "Open Sans", sans-serif;}
 	margin: 0 auto;
 	box-shadow: 10px 10px 50px -13px rgba(0,0,0,0.75);
 }
+
 img{position: fixed;right: 0;}
 
 footer{
@@ -22,6 +23,7 @@ footer{
 	text-align: center;
 	vertical-align:bottom;
 }
+
 #links{
 	text-align: center;
 	padding:5px;
