@@ -1,0 +1,12 @@
+#wrapper{
+	width: 640px;
+	height: 960px;
+	margin: 0px auto;
+	background-color: red;
+}
+h1{
+	text-align: center;
+}
+section {
+	border:1px solid black;
+}
