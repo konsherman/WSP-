@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,800,600,300);
 
-body{background-color:  #66757f;font-family: "Open Sans", sans-serif;}
+body{
+	
+	font-family: "Open Sans", sans-serif;
+	background-color:#66757f;	
+}
 
 #wrapper{
 	background-color: #ccd6dd;
