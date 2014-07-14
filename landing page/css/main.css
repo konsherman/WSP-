@@ -6,6 +6,7 @@ body{
 	background-color:#66757f;	
 }
 
+
 #wrapper{
 	background-color: #ccd6dd;
 	width: 960px;
@@ -13,7 +14,7 @@ body{
 	box-shadow: 10px 10px 50px -13px rgba(0,0,0,0.75);
 }
 
-img{position: fixed;right: 0;}
+
 
 footer{
 	width:100%;
@@ -32,11 +33,12 @@ footer{
 #links{
 	
 	text-align: center;
-	padding:5px;
+	
 }
 
+
 h1{font-family: 'Arvo', serif;}
-a{display: block; padding: 5px;}
+
 a:link {color: white;}
 a:visited {color: #55acee;}
 a:hover {color: grey;}
