@@ -26,9 +26,11 @@ footer{
 	color: white;
 	text-align: center;
 	vertical-align:bottom;
+	clear: both;
 }
 
 #links{
+	
 	text-align: center;
 	padding:5px;
 }
