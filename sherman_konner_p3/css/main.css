@@ -1,0 +1,13 @@
+.fix{
+	padding: 0px;
+	margin:0px;
+}
+.bump{
+	margin-top: 10px;
+}
+
+p{
+	font-weight: 10px;
+	text-align: left;
+	line-height: 20px;
+}
