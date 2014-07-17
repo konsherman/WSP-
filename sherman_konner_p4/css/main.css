@@ -11,6 +11,11 @@ p{
 h3,h4{
 	font-weight: bold;
 }
+.test{
+	width: 100%;
+	margin:0;
+	background-color: red;
+}
 
 .small-10{
 	margin-top: 50px;
@@ -30,6 +35,9 @@ h3,h4{
 }
 .fix>p{
 	font-size: 12px;
+}
+.fix{
+	border-bottom: 1px solid black;
 }
 #library{
 	position: absolute;
