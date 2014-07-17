@@ -1,0 +1,40 @@
+
+.bump{
+	margin-top: 10px;
+}
+
+p{
+	font-weight: 10px;
+	text-align: left;
+	line-height: 20px;
+}
+h3,h4{
+	font-weight: bold;
+}
+
+.small-10{
+	margin-top: 50px;
+}
+.small-2{
+	margin-top: 50px;
+}
+
+
+#info>p{
+	font-size: 12px;
+}
+.th>img{
+	margin-top: 10px;
+	margin-right: 0;
+
+}
+.fix>p{
+	font-size: 12px;
+}
+#library{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	margin:5px;
+}
