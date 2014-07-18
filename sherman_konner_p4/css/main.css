@@ -1,7 +1,9 @@
 
 .bump{
 	margin-top: 10px;
+	width: 65%;
 }
+
 
 p{
 	font-weight: 10px;
@@ -11,6 +13,30 @@ p{
 h3,h4{
 	font-weight: bold;
 }
+
+.bump>button{
+	background-color: red;
+	display: block;
+}
+#images{
+	float: left;
+	display: block;
+	border-bottom: 1px solid black;
+
+
+}
+#images1{
+	float: left;
+	margin-left: 7%;
+}
+img{
+	margin: 5px;
+
+}
+#info{
+	clear: both;
+}
+
 .test{
 	width: 100%;
 	margin:0;
@@ -46,3 +72,20 @@ h3,h4{
 	z-index: 1;
 	margin:5px;
 }
+.marg{
+	margin-top: 20px;
+}
+
+/*
+------MEDIA QUEIRES----*/
+
+
+@media (min-width: 437px) {
+	#images1{
+		margin-left: 0px;
+	}
+}
+</style>
+
+
+
