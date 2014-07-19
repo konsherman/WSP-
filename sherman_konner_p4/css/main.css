@@ -15,15 +15,19 @@ h3,h4{
 }
 
 .bump>button{
-	background-color: red;
 	display: block;
+}
+#subject{
+	margin-top: 10px;
+	line-height: 15px;
+}
+#message{
+	height: 200px;
 }
 #images{
 	float: left;
 	display: block;
 	border-bottom: 1px solid black;
-
-
 }
 #images1{
 	float: left;
@@ -40,7 +44,6 @@ img{
 .test{
 	width: 100%;
 	margin:0;
-	background-color: red;
 }
 
 .small-10{
@@ -64,6 +67,7 @@ img{
 }
 .fix{
 	border-bottom: 1px solid black;
+	height: 205px;
 }
 #library{
 	position: absolute;
@@ -75,6 +79,10 @@ img{
 .marg{
 	margin-top: 20px;
 }
+#age{
+	display: inline;
+	width: 45px;
+}
 
 
 /*
@@ -84,6 +92,12 @@ img{
 @media (min-width: 437px) {
 	#images1{
 		margin-left: 0px;
+	}
+}
+@media (min-width: 400px) {
+	.fix{
+		
+		height: 275px;
 	}
 }
 </style>
