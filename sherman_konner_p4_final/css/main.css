@@ -83,6 +83,12 @@ img{
 	display: inline;
 	width: 45px;
 }
+button {
+	background-color: #ff7f00;
+}
+.button{
+	background-color: #ff7f00;
+}
 
 
 /*
