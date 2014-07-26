@@ -73,8 +73,8 @@ img{
 }
 .fix{
 	border-bottom: 1px solid black;
-
-	height: 500px;
+	margin-bottom: 65px;
+	
 }
 #library{
 	position: absolute;
@@ -109,12 +109,6 @@ button .postfix{
 }
 /*
 ------MEDIA QUEIRES----*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
-	.bump, body{
-		background-color: #dcd5c6;
-	}
-}
-
 @media (min-width: 437px) {
 	#images1{
 		margin-left: 0px;
