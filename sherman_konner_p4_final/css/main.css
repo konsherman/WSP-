@@ -70,6 +70,7 @@ img{
 }
 .fix>p{
 	font-size: 12px;
+	font-family: "helvetica";
 }
 .fix{
 	border-bottom: 1px solid black;

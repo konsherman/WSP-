@@ -1,0 +1,17 @@
+body{
+	background-color: #E9DEB0;
+}
+
+
+.color{
+	background-color: #2F615D;
+	height: 300px;
+	border:1px solid black;
+	-webkit-box-shadow: 10px 10px 70px -35px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 70px -35px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 70px -35px rgba(0,0,0,0.75);
+}
+}
+.test{
+
+
