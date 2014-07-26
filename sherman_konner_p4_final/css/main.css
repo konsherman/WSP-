@@ -41,8 +41,10 @@ img{
 	margin: 5px;
 
 }
-#info{
-	clear: both;
+.info{
+	font-family: 'helvetica';
+	
+	margin: 19px;
 }
 
 .test{
@@ -90,14 +92,16 @@ img{
 }
 button {
 	background-color: #ff7f00;
+	box-shadow: 10px 10px 34px -69px rgba(0,0,0,0.75);
+	border: 1px solid white;
 
 }
 .button{
 	background-color: #ff7f00;
+box-shadow: 10px 10px 34px -69px rgba(0,0,0,0.75);
 }
 ul.off-canvas-list li label{
 	color: white;
-
 	box-shadow: 10px 10px 82px -17px rgba(0,0,0,0.75);
 }
 button .postfix{
