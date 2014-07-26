@@ -107,7 +107,7 @@ button .postfix{
 ------MEDIA QUEIRES----*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
 	.bump, body{
-		background-color: red;
+		background-color: #dcd5c6;
 	}
 }
 
