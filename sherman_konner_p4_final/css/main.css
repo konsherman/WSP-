@@ -3,8 +3,11 @@
 	margin-top: 10px;
 	width: 65%;
 }
-
-
+a{
+	text-decoration: underline;
+	font-family: 'helvetica';
+	font-size: 14px;
+}
 p{
 	font-weight: 10px;
 	text-align: left;
@@ -17,7 +20,6 @@ h1{
 h3,h4{
 	font-weight: bold;
 }
-
 .bump>button{
 	display: block;
 }
@@ -74,9 +76,11 @@ img{
 }
 .fix{
 	border-bottom: 1px solid black;
+	height: 200px;
+	margin-top: 20px;
 	margin-bottom: 50px;
-	
 }
+.marg{margin-top: 20px;}
 #library{
 	position: absolute;
 	top: 0;
@@ -97,6 +101,7 @@ button {
 	border: 1px solid white;
 
 }
+
 .button{
 	background-color: #ff7f00;
 box-shadow: 10px 10px 34px -69px rgba(0,0,0,0.75);
@@ -105,9 +110,7 @@ ul.off-canvas-list li label{
 	color: white;
 	box-shadow: 10px 10px 82px -17px rgba(0,0,0,0.75);
 }
-button .postfix{
-	background-color:#ff7f00;
-}
+
 /*
 ------MEDIA QUEIRES----*/
 @media (min-width: 437px) {
@@ -115,10 +118,11 @@ button .postfix{
 		margin-left: 0px;
 	}
 }
-@media (min-width: 400px) {
+@media (min-width: 400px) and (max-width: 500px) {
 	.fix{
 		
-		height: 275px;
+		margin-bottom: 35px;
+		height: 405px;
 	}
 }
 </style>
