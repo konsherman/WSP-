@@ -118,11 +118,11 @@ ul.off-canvas-list li label{
 		margin-left: 0px;
 	}
 }
-@media (min-width: 400px) and (max-width: 500px) {
+@media (min-width: 280px) and (max-width: 500px) {
 	.fix{
 		
 		margin-bottom: 35px;
-		height: 405px;
+		height: 406px;
 	}
 }
 </style>
