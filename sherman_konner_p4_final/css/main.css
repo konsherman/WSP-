@@ -3,26 +3,6 @@
 	margin-top: 10px;
 	width: 65%;
 }
-a{
-	text-decoration: underline;
-	font-family: 'helvetica';
-	font-size: 14px;
-}
-p{
-	font-weight: 10px;
-	text-align: left;
-	line-height: 20px;
-}
-h1{
-	text-align: center;
-	font-family: 'helvetica';
-}
-h3,h4{
-	font-weight: bold;
-}
-.bump>button{
-	display: block;
-}
 #subject{
 	margin-top: 10px;
 	line-height: 15px;
@@ -39,10 +19,7 @@ h3,h4{
 	float: left;
 	margin-left: 7%;
 }
-img{
-	margin: 5px;
 
-}
 .info{
 	font-family: 'helvetica';
 	
@@ -95,23 +72,51 @@ img{
 	display: inline;
 	width: 45px;
 }
-button {
-	background-color: #ff7f00;
-	box-shadow: 10px 10px 34px -69px rgba(0,0,0,0.75);
-	border: 1px solid white;
 
-}
-
-.button{
-	background-color: #ff7f00;
-box-shadow: 10px 10px 34px -69px rgba(0,0,0,0.75);
-}
 ul.off-canvas-list li label{
 	color: white;
 	box-shadow: 10px 10px 82px -17px rgba(0,0,0,0.75);
 }
+/*BUTTON STYLES*/
+.button{
+	background-color: #ff7f00;
+	box-shadow: 10px 10px 34px -69px rgba(0,0,0,0.75);
+}
+button {
+	background-color: #ff7f00;
+	box-shadow: 10px 10px 34px -69px rgba(0,0,0,0.75);
+	border: 1px solid white;
+}
+.bump>button{
+	display: block;
+}
 
+
+/*==========*/
+/*BASIC STYLES*/
+a{
+	text-decoration: underline;
+	font-family: 'helvetica';
+	font-size: 14px;
+}
+p{
+	font-weight: 10px;
+	text-align: left;
+	line-height: 20px;
+}
+h1{
+	text-align: center;
+	font-family: 'helvetica';
+}
+h3,h4{
+	font-weight: bold;
+}
+img{
+	margin: 5px;
+}
+/*======================*/
 /*
+
 ------MEDIA QUEIRES----*/
 @media (min-width: 437px) {
 	#images1{
