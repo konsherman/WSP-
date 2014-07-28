@@ -2,6 +2,10 @@ body{
 	background-color: #E9DEB0;
 }
 
+#thing{
+	margin: 0px auto;
+
+}
 
 .color{
 	background-color: #2F615D;
@@ -17,13 +21,17 @@ box-shadow: 10px 10px 70px -35px rgba(0,0,0,0.75);
   position:absolute; top: 50%; left:50%; border:#cacdd3 2px solid; border-radius: 25px; margin-top: -21px; margin-left:-104px;  width: 200px; overflow:hidden; padding: 6px; transition: opacity 1s; -moz-transition: opacity 1s;
   height:30px;
 }*/
-#loading ul {list-style-type: none; padding: 0; margin:0; position:absolute; white-space: no-wrap; width:300px;
+#loading ul {list-style-type: none; padding: 0; margin:0; position:absolute; white-space: no-wrap;/* width:300px;*/
 /*-webkit-animation: translate 1.5s infinite linear;
 -moz-animation: translate 1.5s infinite linear;
 -ms-animation: translate 1.5s inifinite linear;
 animation: translate 1.5s infinite linear;*/}
 /*#loading li{float:left; display:inline-block; width: 20px; height: 20px; margin:5px; border-radius: 50%;}*/
-#loading li:nth-child(1){}
+#loading li:nth-child(1){
+	position: relative;
+	left: 50%;
+	margin-top: 25%;
+}
 /*#loading li{background-image: url('img/image.jpg');}*/
 #loading li:nth-child(2){}
 #loading li:nth-child(3){}
