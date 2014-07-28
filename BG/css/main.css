@@ -1,5 +1,6 @@
 body{
 	background-color: #E9DEB0;
+
 }
 
 #thing{
@@ -15,25 +16,23 @@ body{
 -moz-box-shadow: 10px 10px 70px -35px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 70px -35px rgba(0,0,0,0.75);
 }
-
+h1{text-align: right; font-style: italic; font-size: 24px; color: #201a5e; margin-top: -40px; margin-right: 20px;}
 
 /*#loading{
   position:absolute; top: 50%; left:50%; border:#cacdd3 2px solid; border-radius: 25px; margin-top: -21px; margin-left:-104px;  width: 200px; overflow:hidden; padding: 6px; transition: opacity 1s; -moz-transition: opacity 1s;
   height:30px;
 }*/
-#loading ul {list-style-type: none; padding: 0; margin:0; position:absolute; white-space: no-wrap;/* width:300px;*/
+#loading ul {list-style-type: none; padding: 0; margin-left:22%; margin-top: 10%; position:absolute;white-space: no-wrap;
 /*-webkit-animation: translate 1.5s infinite linear;
 -moz-animation: translate 1.5s infinite linear;
 -ms-animation: translate 1.5s inifinite linear;
 animation: translate 1.5s infinite linear;*/}
 /*#loading li{float:left; display:inline-block; width: 20px; height: 20px; margin:5px; border-radius: 50%;}*/
 #loading li:nth-child(1){
-	position: relative;
-	left: 50%;
-	margin-top: 25%;
+	margin: 0px auto;
 }
 /*#loading li{background-image: url('img/image.jpg');}*/
-#loading li:nth-child(2){}
+#loading li:nth-child(2){text-align: center;}
 #loading li:nth-child(3){}
 
 @-webkit-keyframes translate
@@ -72,6 +71,7 @@ animation: translate 1.5s infinite linear;*/}
   -webkit-transform: skewX(-21deg);
   transition:background 1s linear 1s, right 2s 2s;
 }
+
 
 #bigloading{width:100%; height:100%; overflow:hidden; position:absolute; left:0; top:0; background:#f7f1da; transition: background 1s 2s;}
 
