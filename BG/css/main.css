@@ -73,7 +73,7 @@ animation: translate 1.5s infinite linear;*/}
   transition:background 1s linear 1s, right 2s 2s;
 }
 
-#bigloading{width:100%; height:100%; overflow:hidden; position:absolute; left:0; top:0; background:red; transition: background 1s 2s;}
+#bigloading{width:100%; height:100%; overflow:hidden; position:absolute; left:0; top:0; background:#f7f1da; transition: background 1s 2s;}
 
 #bigloading.ready #lefthalf{
   left:-100%;
