@@ -3798,11 +3798,13 @@ dialog[open] {
 
 .tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #f1ce83;
+  background: #f9b130;
   color: white;
   height: 2.8125rem;
   line-height: 2.8125rem;
-  position: relative; }
+  position: relative;
+  box-shadow: 0px 14px 32px -21px rgba(0,0,0,0.75);
+   }
   .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
     color: white;
     font-weight: bold;

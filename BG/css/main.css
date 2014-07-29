@@ -7,7 +7,11 @@ body{
 	margin: 0px auto;
 
 }
-
+#cont{
+	width: 100%;
+	margin: 0px auto;
+	background-color: red;
+}
 .color{
 	background-color: #2F615D;
 	height: 300px;
@@ -16,13 +20,13 @@ body{
 -moz-box-shadow: 10px 10px 70px -35px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 70px -35px rgba(0,0,0,0.75);
 }
-h1{text-align: right; font-style: italic; font-size: 24px; color: #201a5e; margin-top: -40px; margin-right: 20px;}
+/*h1{text-align: right; font-style: italic; font-size: 24px; color: #201a5e; margin-top: -40px; margin-right: 20px;}*/
 
 /*#loading{
   position:absolute; top: 50%; left:50%; border:#cacdd3 2px solid; border-radius: 25px; margin-top: -21px; margin-left:-104px;  width: 200px; overflow:hidden; padding: 6px; transition: opacity 1s; -moz-transition: opacity 1s;
   height:30px;
 }*/
-#loading ul {list-style-type: none; padding: 0; margin-left:22%; margin-top: 10%; position:absolute;white-space: no-wrap;
+#loading ul {list-style-type: none; padding: 0; /*margin-left:22%; margin-top: 10%;*/ position:absolute;white-space: no-wrap;
 /*-webkit-animation: translate 1.5s infinite linear;
 -moz-animation: translate 1.5s infinite linear;
 -ms-animation: translate 1.5s inifinite linear;
