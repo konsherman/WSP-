@@ -150,6 +150,7 @@ button {
 a{
 	text-decoration: underline;
 	font-family: 'helvetica';
+	color: #f9b130;
 	font-size: 14px;
 }
 p{
@@ -159,10 +160,12 @@ p{
 }
 h1{
 	text-align: center;
+	color: #af6c00;
 	font-family: 'helvetica';
 }
 h3,h4{
 	font-weight: bold;
+	
 }
 img{
 	margin: 5px;
