@@ -27,6 +27,10 @@ body{
   width: 100%;
   float: right;
 }
+.image {
+  width: 100%;
+  margin:0px auto;
+}
 .large-12{
   background-color: #dcd5c6;
   width: 100%;
