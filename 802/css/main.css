@@ -23,3 +23,10 @@ body{
   width: 100%;
   float: right;
 }
+@media (max-width: 870px) {
+  .top-bar{
+    margin-top: 0px;
+    width: 100%;
+  }
+  body{background-color: red;}
+}
