@@ -16,12 +16,23 @@
 .logo{
   background-color: red;
 }
+.left{
+  font-family: 'Anton', sans-serif;
+}
 body{
   background-color: black;
+  font-family: 'Anton', sans-serif;
 }
 #fix{
   width: 100%;
   float: right;
+}
+.large-12{
+  background-color: #dcd5c6;
+  width: 100%;
+  float: right;
+  height: 400px;
+  box-shadow: inset 0px 8px 20px -6px rgba(0,0,0,1);
 }
 @media (max-width: 870px) {
   .top-bar{
@@ -30,3 +41,4 @@ body{
   }
   
 }
+
