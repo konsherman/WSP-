@@ -1,0 +1,25 @@
+.top-bar-section li:not(.has-form) a:not(.button){
+  background-color: #43401e;
+}
+ .top-bar-section .dropdown li:not(.has-form) a:not(.button){
+  background-color: #43401e;
+ }
+  .top-bar-section .dropdown li:not(.has-form) a:not(.button){
+    background-color: #43401e;
+  }
+.top-bar{
+ width: 65%;
+ float: right;
+ margin-top: 251px;
+ background-color: #43401e;
+}
+.logo{
+  background-color: red;
+}
+body{
+  background-color: black;
+}
+#fix{
+  width: 100%;
+  float: right;
+}
