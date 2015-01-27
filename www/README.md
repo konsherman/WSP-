@@ -32,7 +32,20 @@ Want to see it in action? Check out the demo: https://talky.io/
 
 ### 2. Create our WebRTC object
 
-```js
+<script type="text/javascript">
+    var webrtc = new SimpleWebRTC({
+    // the id/element dom element that will hold "our" video
+    localVideoEl: 'localVideo',
+    // the id/element dom element that will hold remote videos
+    remoteVideosEl: 'remoteVideos',
+    // immediately ask for camera access
+    autoRequestMedia: true
+});
+    webrtc.on('readyToCall', function () {
+    // you can name it anything
+    webrtc.joinRoom('your awesome room name');
+});
+</script>
 var webrtc = new SimpleWebRTC({
     // the id/element dom element that will hold "our" video
     localVideoEl: 'localVideo',
@@ -41,7 +54,7 @@ var webrtc = new SimpleWebRTC({
     // immediately ask for camera access
     autoRequestMedia: true
 });
-```
+
 
 ### 3. Tell it to join a room when ready
 
