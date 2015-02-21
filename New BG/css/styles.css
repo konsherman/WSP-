@@ -1,0 +1,254 @@
+.test{
+	
+	margin-top: 32px;
+	margin-left: 30px;
+	text-align: right;
+}
+.pic{
+	width: 460px;
+	height: 318px;
+	background-color: red;
+	float: right;
+	margin:10px;
+
+
+}
+.swag{
+	padding: 5px;
+		border-bottom: 1px solid black;
+
+
+}
+.stuff{
+
+}
+.pic1{
+	width: 355px;
+	height: 355px;
+	display: block;
+	margin: 0px auto;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: center;
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.pic2{
+	width: 355px;
+	height: 355px;
+	display: block;
+	margin: 0px auto;
+	overflow: hidden;
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	
+
+}
+.pic3{
+	width: 355px;
+	height: 355px;
+	display: block;
+	margin: 0px auto;
+	overflow: hidden;
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	
+	
+
+
+}
+.pic4{
+	width: 355px;
+	height: 355px;
+	display: block;
+	margin: 0px auto;
+	overflow: hidden;
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	
+	
+
+}
+.pic5{
+	width: 355px;
+	height: 355px;
+	display: block;
+	margin: 0px auto;
+	overflow: hidden;
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+
+
+
+}
+.pic1:hover,.pic2:hover,.pic3:hover,.pic4:hover,.pic5:hover{
+	   -webkit-animation: animatedBackground 1s ease-out 1;
+		-moz-animation: animatedBackground 1s ease-out 1;
+		animation: animatedBackground 1s ease-out 1;
+		-webkit-animation-fill-mode: forwards;
+		animation-fill-mode: forwards;
+		cursor: pointer;
+}
+	@-webkit-keyframes animatedBackground {
+		0% {
+			-webkit-transform: scale(1, 1);
+			-moz-transform: scale(1, 1);
+			-ms-transform: scale(1, 1);
+			-o-transform: scale(1, 1);
+			transform: scale(1, 1)
+		}
+		100% {
+		-webkit-transform: scale(1.1, 1.1);
+		-moz-transform: scale(1.1, 1.1);
+		-ms-transform: scale(1.1, 1.1);
+		-o-transform: scale(1.1, 1.1);
+		transform: scale(1.1, 1.1)
+		}
+
+	}
+	
+	
+	@-moz-keyframes animatedBackground {
+		0% {
+			-webkit-transform: scale(1, 1);
+			-moz-transform: scale(1, 1);
+			-ms-transform: scale(1, 1);
+			-o-transform: scale(1, 1);
+			transform: scale(1, 1)
+		}
+		100% {
+			-webkit-transform: scale(1.1, 1.1);
+			-moz-transform: scale(1.1, 1.1);
+			-ms-transform: scale(1.1, 1.1);
+			-o-transform: scale(1.1, 1.1);
+			transform: scale(1.1, 1.1)
+		}
+
+	}
+	@keyframes animatedBackground {
+		0% {
+			-webkit-transform: scale(1, 1);
+			-moz-transform: scale(1, 1);
+			-ms-transform: scale(1, 1);
+			-o-transform: scale(1, 1);
+			transform: scale(1, 1)
+		}
+		100% {
+			-webkit-transform: scale(1.1, 1.1);
+			-moz-transform: scale(1.1, 1.1);
+			-ms-transform: scale(1.1, 1.1);
+			-o-transform: scale(1.1, 1.1);
+			transform: scale(1.1, 1.1)
+		}
+
+	}
+
+.swag1{
+	padding: 5px;
+}
+.f{
+	box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.75);
+
+}
+
+li{
+	display: inline;
+}
+
+.bg{
+	width: 100%;
+	height: auto;
+	margin: 10px auto;
+	box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.75);
+	z-index: -1;
+}
+
+nav ul {
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	margin:0;
+	transition: max-height 0.5s;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+.handle{
+	width: 100%;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 15px 10px;
+	cursor: pointer;
+	color: white;
+	display: none;
+}
+.clear{
+	clear:both;
+}
+.center{
+	display: inline;
+}
+footer{
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	text-align: right;
+	margin: 2%;
+	font-size: 0.75em;
+}
+footer a {
+	color: #6d6e70;
+}
+@media screen and (max-width: 580px){
+	nav ul{
+		max-height: 0px;
+	}
+	.showing{
+		max-height: 20em;
+	}
+	nav ul li{
+		box-sizing: border-box;
+		width:100%;
+		padding: 15px;
+		text-align: left;
+	}
+	.handle{
+		display: block;
+	}
+	.test{
+		background-color: white;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.test{
+		background-color: blue;
+		margin-top: 20px;
+		margin-left:0px;
+		width: 100%;
+	}
+.center{
+	width: 300px;
+	margin: 0px auto;
+}
+}
+
