@@ -13,16 +13,39 @@
 
 
 }
-.swag{
+/*nav bar*/
+a{
+	font-family: 'Roboto Slab', serif;
+}
+
+#plist{
+	display: block;
+}
+#proHead{
+	text-align: center;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+.pImages{
 	padding: 5px;
-		border-bottom: 1px solid black;
-
-
+	border-bottom: 1px solid black;
+}
+.box{
+	height: 400px;
+	background-color: red;
+}
+.box1{
+	height: 400px;
+	background-color: blue;
+}
+.bing{
+	margin-top: 20px;
 }
 .stuff{
 
 }
 .pic1{
+
 	width: 355px;
 	height: 355px;
 	display: block;
@@ -30,7 +53,7 @@
 	overflow: hidden;
 	background-repeat: no-repeat;
 	background-position: center;
- 	-webkit-background-size: cover;
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
@@ -42,11 +65,12 @@
 	display: block;
 	margin: 0px auto;
 	overflow: hidden;
- 	-webkit-background-size: cover;
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center;
+
 	
 
 }
@@ -72,11 +96,12 @@
 	display: block;
 	margin: 0px auto;
 	overflow: hidden;
- 	-webkit-background-size: cover;
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center;
+
 	
 	
 
@@ -103,6 +128,8 @@
 		-webkit-animation-fill-mode: forwards;
 		animation-fill-mode: forwards;
 		cursor: pointer;
+		position: relative;
+		z-index: 1;
 }
 	@-webkit-keyframes animatedBackground {
 		0% {
@@ -158,9 +185,6 @@
 
 	}
 
-.swag1{
-	padding: 5px;
-}
 .f{
 	box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.75);
 
@@ -168,6 +192,10 @@
 
 li{
 	display: inline;
+}
+#pipe{
+	display: inline;
+	color: #201a5e;
 }
 
 .bg{
@@ -180,7 +208,7 @@ li{
 
 nav ul {
 	overflow: hidden;
-	color: white;
+	color: red;
 	padding: 0;
 	text-align: center;
 	margin:0;
@@ -236,6 +264,9 @@ footer a {
 	}
 	.test{
 		background-color: white;
+	}
+	#pipe{
+		display: none;
 	}
 }
 
