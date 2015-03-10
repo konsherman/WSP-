@@ -6,10 +6,13 @@
     <title>Radial Marketing</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/styles.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/slippry.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/vendor/slippry.min.js"></script>
     <script src="jquery.contenthover.js"></script>
     <script src='js/vendor/hover.js'></script>
     <script src="js/vendor/modernizr.js"></script>
+
   </head>
   <body>
     <div class="row">
@@ -37,17 +40,33 @@
       <!-- </div> -->
     </div>
     <div class="row bing">
-      <div class="large-9 small-12 columns right box1"></div>
+      <div class="large-9 small-12 columns right box1">
+<ul id="portfolio-demo">
+    <li title="This is caption 1 <a href='#link'>Even with links!</a>">
+      <img class="portImg" src="img/SBT/SBTCaptivebrochure.jpg" alt="Brochure">
+    </li>
+    <li title="This is caption 2">
+      <img class="portImg" src="img/SBT/SBTDodgeball.jpg" alt="DodgeBall">
+    </li>
+    <li title="And this is some very long caption for slide 3. Yes, really long.">
+      <img class="portImg" src="img/SBT/SBTRM.jpg" alt="SBT RM">
+    </li>
+    <li title="And this is some very long caption for slide 4.">
+      <img class="portImg" src="img/SBT/SBTWind.jpg" alt="SBTWIND">
+    </li>
+  </ul>
+    <div class="large-9 small-12 columns right box2">
+        <h3>Smith Bell & Thompson</h3>
+    </div>
+      </div>
       <div class="large-3 small-12 left columns box">  
         <h3 id="proHead">PROJECTS</h3>
         <ul id="plist">
-          <li><a href="#">P1</a></li>
+          <li><a href="#">Campaign For Vermont</a></li>
           <br>
-          <li><a href="#">p2</a></li>
+          <li><a href="#">Willis Programs</a></li>
           <br>
-          <li><a href="#">P1</a></li>
-          <br>
-          <li><a href="#">p2</a></li>
+          <li><a href="#">Smith Bell & Thompson</a></li>
         </ul>
       </div>
     </div>
@@ -58,7 +77,7 @@
   
 </div>
 
-    <script src="js/vendor/jquery.js"></script>
+    
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
@@ -67,14 +86,48 @@
       $('.handle').on('click', function(){
         $('nav ul').toggleClass('showing');
       });
-      $('#d2').hover(function(){
-        $(this).toggleClass('hovercontent');
-      });
     </script>
     <script>
+//       jQuery('#pictures-demo').slippry({
+//   // general elements & wrapper
+//       slippryWrapper: '<div class="sy-box pictures-slider" />', // wrapper to wrap everything, including pager
 
+//   // options
+//   adaptiveHeight: false, // height of the sliders adapts to current slide
+//   captions: false, // Position: overlay, below, custom, false
 
+//   // pager
+//   pager: false,
+  
+//   // controls
+//   controls: false,
+//   autoHover: false,
 
+//   // transitions
+//   transition: 'kenburns', // fade, horizontal, kenburns, false
+//   kenZoom: 140,
+//   speed: 2000 // time the transition takes (ms)
+// });
+jQuery('#portfolio-demo').slippry({
+  // general elements & wrapper
+  slippryWrapper: '<div class="sy-box portfolio-slider" />', // wrapper to wrap everything, including pager
+
+  // options
+  adaptiveHeight: false, // height of the sliders adapts to current slide
+  start: 'random', // num (starting from 1), random
+  loop: false, // first -> last & last -> first arrows
+  captionsSrc: 'li',
+  captions: 'custom', // Position: overlay, below, custom, false
+  captionsEl: '.external-captions',
+
+  // transitions
+  transition: 'fade', // fade, horizontal, kenburns, false
+  easing: 'linear', // easing to use in the animation [(see... [jquery www])]
+  continuous: false,
+
+  // slideshow
+  auto: false
+});
     </script>
   </body>
 </html>
