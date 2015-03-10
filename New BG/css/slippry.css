@@ -148,8 +148,8 @@
 /* single slide */
 .sy-slide {
   position: absolute;
-  width: 750px;
-  height: 400px;
+  width: 100%;
+  height: 400px; 
   z-index: 2; }
   .sy-slide.kenburns {
     width: 140%;
