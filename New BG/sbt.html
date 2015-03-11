@@ -1,0 +1,137 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radial Marketing</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/slippry.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/vendor/slippry.min.js"></script>
+    <script src="jquery.contenthover.js"></script>
+    <script src='js/vendor/hover.js'></script>
+    <script src="js/vendor/modernizr.js"></script>
+
+  </head>
+  <body>
+    <div class="row">
+            <!-- <div class="small-12 small-centered large-3.columns"> -->
+            <div class="center">
+              <a href="index.html"><img src="img/logo.png" alt="Radial Markating"></a>
+            </div>
+              
+          <!-- ~~~~~NAV~~~~~ -->    
+          <div class="large-10.columns right test">
+            <nav>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <p id="pipe">|</p>
+                <li><a href="#">PROJECTS</a></li>
+                <p id="pipe">|</p>
+                <li><a href="#">CONTACT</a></li>
+                <p id="pipe">|</p>
+                <li><a href="#">ABOUT</a></li>
+             </ul>
+             <div class="handle">Menu</div>
+            </nav>         
+        </div>
+        <!-- ~~~~END NAV~~~~~ -->
+      <!-- </div> -->
+    </div>
+    <div class="row bing">
+      <div class="large-9 small-12 columns right box1">
+<ul id="portfolio-demo">
+    <li title="This is caption 1 <a href='#link'>Even with links!</a>">
+      <img class="portImg" src="img/SBT/SBTCaptivebrochure.jpg" alt="Brochure">
+    </li>
+    <li title="This is caption 2">
+      <img class="portImg" src="img/SBT/SBTDodgeball.jpg" alt="DodgeBall">
+    </li>
+    <li title="And this is some very long caption for slide 3. Yes, really long.">
+      <img class="portImg" src="img/SBT/SBTRM.jpg" alt="SBT RM">
+    </li>
+    <li>
+      <img class="portImg" src="img/SBT/SBTWind.jpg" alt="SBTWIND">
+    </li>
+    <li>
+      <img src="img/SBT/SBTproductsellsheet.jpg" alt="Product Sell Sheet" class="portImg">
+    </li>
+  </ul>
+    <div class="large-9 small-12 columns right box2">
+        <h3>Smith Bell & Thompson</h3>
+        <p>Words</p>
+    </div>
+      </div>
+      <div class="large-3 small-12 left columns box">  
+        <h3 id="proHead">PROJECTS</h3>
+        <ul id="plist">
+          <li><a href="#">Campaign For Vermont</a></li>
+          <br>
+          <li><a href="#">Willis Programs</a></li>
+          <br>
+          <li><a href="sbt.html">Smith Bell & Thompson</a></li>
+        </ul>
+      </div>
+    </div>
+
+<!-- ~~~~~~FOOTER~~~~~~~~ -->
+<div class="row">
+  <footer><a href="#">131 Peach Street. Berlin, VT 802-522-8904 | </a><a href="#">radialmarketing.com | </a><a href="#">Copyright ©2015 Radial Marketing LLC</a></footer>
+  
+</div>
+
+    
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script>
+      $('.handle').on('click', function(){
+        $('nav ul').toggleClass('showing');
+      });
+    </script>
+    <script>
+//       jQuery('#pictures-demo').slippry({
+//   // general elements & wrapper
+//       slippryWrapper: '<div class="sy-box pictures-slider" />', // wrapper to wrap everything, including pager
+
+//   // options
+//   adaptiveHeight: false, // height of the sliders adapts to current slide
+//   captions: false, // Position: overlay, below, custom, false
+
+//   // pager
+//   pager: false,
+  
+//   // controls
+//   controls: false,
+//   autoHover: false,
+
+//   // transitions
+//   transition: 'kenburns', // fade, horizontal, kenburns, false
+//   kenZoom: 140,
+//   speed: 2000 // time the transition takes (ms)
+// });
+jQuery('#portfolio-demo').slippry({
+  // general elements & wrapper
+  slippryWrapper: '<div class="sy-box portfolio-slider" />', // wrapper to wrap everything, including pager
+
+  // options
+  adaptiveHeight: false, // height of the sliders adapts to current slide
+  start: 'random', // num (starting from 1), random
+  loop: true, // first -> last & last -> first arrows
+  captionsSrc: 'li',
+  captions: 'custom', // Position: overlay, below, custom, false
+  captionsEl: '.external-captions',
+
+  // transitions
+  transition: 'fade', // fade, horizontal, kenburns, false
+  easing: 'linear', // easing to use in the animation [(see... [jquery www])]
+  continuous: false,
+
+  // slideshow
+  auto: true
+});
+    </script>
+  </body>
+</html>
