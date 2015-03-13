@@ -19,9 +19,11 @@ h3{
 	background-color: red;
 	float: right;
 	margin:10px;
-
-
 }
+a:hover{
+	color: hsla(249, 63%, 17%, 0.5);
+}
+
 /*nav bar*/
 a{
 	font-family: 'Roboto Slab', serif;
@@ -64,6 +66,7 @@ a{
 	height: 400px;
 	text-align: right;
 	font-family: 'Roboto Slab', serif;
+
 }
 .box1{
 	

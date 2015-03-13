@@ -42,14 +42,11 @@
     <div class="row bing">
       <div class="large-9 small-12 columns right box1">
 <ul id="portfolio-demo">
-    <li title="This is caption 1 <a href='#link'>Even with links!</a>">
-      <img class="portImg" src="img/SBT/SBTCaptivebrochure.jpg" alt="Brochure">
-    </li>
     <li title="This is caption 2">
-      <img class="portImg" src="img/CFV/ENewsletter.jpg" alt="DodgeBall">
+      <img class="portImg" src="img/CFV/ENewsletter.jpg" alt="CFV NEWSLETTER">
     </li>
     <li title="And this is some very long caption for slide 3. Yes, really long.">
-      <img class="portImg" src="img/CFV/CampaignforVermontWebsite.jpg" alt="SBT RM">
+      <img class="portImg" src="img/CFV/CampaignforVermontWebsite.jpg" alt="Campaign for vermont website">
     </li>
     <li>
 <video width="100%" height="100%" controls>
@@ -69,18 +66,24 @@
         Your Browser does not support video
       </video>
     </li>
+    <li>
+      <video width="100%" height="100%" controls>
+        <source src="img/CFV/CFVVermontCanDoBetter.mp4" type="video/mp4">
+        Your Browser does not support video
+      </video>
+    </li>
   </ul>
     <div class="large-9 small-12 columns right box2">
-        <h3>Smith Bell & Thompson</h3>
+        <h3>Campaign For Vermont</h3>
         <p>Words</p>
     </div>
       </div>
       <div class="large-3 small-12 left columns box">  
         <h3 id="proHead">PROJECTS</h3>
         <ul id="plist">
-          <li><a href="#">Campaign For Vermont</a></li>
+          <li><a href="cfv.html">Campaign For Vermont</a></li>
           <br>
-          <li><a href="#">Willis Programs</a></li>
+          <li><a href="willis.html">Willis Programs</a></li>
           <br>
           <li><a href="sbt.html">Smith Bell & Thompson</a></li>
         </ul>
@@ -129,8 +132,8 @@ jQuery('#portfolio-demo').slippry({
   slippryWrapper: '<div class="sy-box portfolio-slider" />', // wrapper to wrap everything, including pager
 
   // options
-  adaptiveHeight: false, // height of the sliders adapts to current slide
-  start: 'random', // num (starting from 1), random
+  adaptiveHeight: true, // height of the sliders adapts to current slide
+  start: '1', // num (starting from 1), random
   loop: true, // first -> last & last -> first arrows
   captionsSrc: 'li',
   captions: 'custom', // Position: overlay, below, custom, false
