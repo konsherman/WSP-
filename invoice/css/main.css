@@ -1,0 +1,49 @@
+/*body{
+	background-color: #151F29;
+	margin-left: 0;
+	margin-top: 0;
+
+}
+.name{
+	background-image: url('../images/Name.gif');
+}
+.work{
+	background-image: url('../images/workDone.gif');
+}
+form{
+	width: 400px;
+	margin: 0px auto;
+}
+input{
+	margin-bottom: 10px;
+	width: 400px;
+	height: 45px;
+	font-size: 40px;
+	font-family: 'Cabin', sans-serif;
+	color: #6F8EA6;
+
+}
+#content{
+	box-shadow: inset -2px -2px 5px 0px rgba(0,0,0,0.75);
+	margin: 0px auto;
+	/*padding: 10px;*/
+	background-color: #364958;
+	font-family: 'Cabin', sans-serif;
+	display: inline-block;
+	/*background-image: url('../invoice.gif');*/
+	width: 600px;
+	height: 425px;
+}
+.swag{
+	/*background-image: url('../images/Name.gif');*/
+
+}
+a{
+	text-decoration: none;
+	float: right;
+	color: grey;
+	font-family: 'Indie Flower', cursive;
+}
+/*button{
+	display: none;
+}*/*/
