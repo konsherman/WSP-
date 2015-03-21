@@ -23,6 +23,7 @@ input{
 	color: #6F8EA6;
 
 }
+
 #content{
 	box-shadow: inset -2px -2px 5px 0px rgba(0,0,0,0.75);
 	margin: 0px auto;
@@ -37,6 +38,9 @@ input{
 .swag{
 	/*background-image: url('../images/Name.gif');*/
 
+}
+.open{
+	font-size: 40px;
 }
 a{
 	text-decoration: none;
