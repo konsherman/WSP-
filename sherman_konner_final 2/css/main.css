@@ -1,0 +1,199 @@
+/*
+	Konner Sherman 
+	konsherman@fullsail.edu
+	July, 2014-
+	
+*/
+
+
+/*CUSTOM CLASSES/ID'S*/
+
+.picture{
+	border: 1px solid #fff0d9;
+	box-shadow: 10px 10px 97px -45px rgba(0,0,0,0.75);
+
+
+}
+.logo{
+	margin-top: 45px;
+}
+.boxthing{
+	background-color:#fff8ee;
+}
+
+.bump{
+	margin-top: 10px;
+	width: 65%;
+}
+#subject{
+	margin-top: 10px;
+	line-height: 15px;
+}
+#message{
+	height: 200px;
+}
+#images{
+	float: left;
+	display: block;
+	border-bottom: 1px solid black;
+}
+#images1{
+	float: left;
+	margin-left: 7%;
+}
+
+.info{
+	font-family: 'helvetica';
+	
+	margin: 19px;
+}
+
+.test{
+	width: 100%;
+	margin:0;
+}
+
+.small-10{
+	margin-top: 50px;
+}
+.small-2{
+	margin-top: 50px;
+}
+
+
+#info>p{
+	font-size: 12px;
+}
+.th>img{
+	margin-top: 10px;
+	margin-right: 0;
+
+}
+.fix{
+	border-bottom: 1px solid black;
+	height: 200px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.marg{margin-top: 20px;}
+#library{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	margin:5px;
+}
+.marg{
+	margin-top: 20px;
+}
+#age{
+	display: inline;
+	width: 45px;
+}
+
+
+
+
+/*================*/
+
+
+/*FOUNDATION STYLES*/
+
+
+
+ul.off-canvas-list li label{
+	color: white;
+	box-shadow: 10px 10px 82px -17px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+/*====================*/
+
+
+/*BUTTON STYLES*/
+
+
+.fix>p{
+	font-size: 12px;
+	font-family: "helvetica";
+}
+
+
+
+.button{
+	background-color: #ff7f00;
+	box-shadow: 10px 10px 34px -69px rgba(0,0,0,0.75);
+}
+button {
+	background-color: #ff7f00;
+	box-shadow: 10px 10px 34px -69px rgba(0,0,0,0.75);
+	border: 1px solid white;
+}
+.bump>button{
+	display: block;
+}
+
+
+
+
+
+/*==========
+/*BASIC STYLES*/
+
+
+
+
+a{
+	text-decoration: underline;
+	font-family: 'helvetica';
+	color: #f9b130;
+	font-size: 14px;
+}
+p{
+	font-weight: 10px;
+	text-align: left;
+	line-height: 20px;
+}
+h1{
+	text-align: center;
+	color: #af6c00;
+	font-family: 'helvetica';
+}
+h3,h4{
+	font-weight: bold;
+	
+}
+img{
+	margin: 5px;
+}
+
+
+
+
+/*======================*/
+/*
+
+------MEDIA QUEIRES----*/
+
+
+
+@media (min-width: 437px) {
+	#images1{
+		margin-left: 0px;
+	}
+}
+@media (min-width: 280px) and (max-width: 500px) {
+	.fix{
+		
+		margin-bottom: 35px;
+		height: 406px;
+	}
+}
+</style>
+
+
+
