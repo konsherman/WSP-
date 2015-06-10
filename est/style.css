@@ -1,0 +1,8 @@
+.swag{
+	background-color: red;
+	width: 500px;
+	height: 300px;
+	background-image: url('img.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
