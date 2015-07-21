@@ -1,0 +1,22 @@
+body{
+	/*background: url(https://ununsplash.imgix.net/reserve/JaI1BywIT5Or8Jfmci1E_zakopane.jpg?q=75&fm=jpg&s=e154bf6c152ea66bee076a0e19455a8c);*/
+	background-color: #e9e5e5;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+a{
+	color: white;
+}
+h1{
+	color: white;
+}
+
+button{
+	background-color: transparent;
+}
+input{
+	margin-bottom: 5px;
+	width: 300px;
+	line-height: 40px;
+	font-size: 25px;
+}

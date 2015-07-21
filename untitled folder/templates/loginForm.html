@@ -1,0 +1,26 @@
+<html>
+   <link rel="stylesheet" href="css/foundation.css" />
+   <style type=text/css>{{ get_resource_as_string('static/foundation.css') }}</style>
+   <style type=text/css>{{ get_resource_as_string('static/my.css') }}</style>
+    <script src="js/vendor/modernizr.js"></script>
+      <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+	<body>
+	<div class="row">
+	<body>
+
+	<div class="large-4 large-centered columns pad">
+	<h1>Login!</h1>
+		<form enctype=multipart/form-data action="/loginAction" method="POST">
+			<input type="text" name="username" placeholder="Name"><br>
+			<input type="password" name="password" placeholder="Password"><br>
+
+			<input type="submit">
+		</form>
+
+    
+</div>
+
+	</div>
+	</body>
+</html>
