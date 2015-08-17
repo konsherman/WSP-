@@ -20,3 +20,8 @@ input{
 	line-height: 40px;
 	font-size: 25px;
 }
+#banner{
+	position: absolute;
+	right: 0;
+	top:-54;
+}

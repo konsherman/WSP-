@@ -10,11 +10,14 @@ import mysql.connector
 
 
 
+# UPLOAD_FOLDER = './uploads/'
+# ALLOWED_EXTENSIONS = set(['png,jpg,gif'])
+
 
 
 app = Flask(__name__)
 app.secret_key = '1234'
-
+# app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 
 
@@ -61,6 +64,9 @@ def updateAction(id):
 	username = request.form["username"]
 	password = request.form["password"]
 	info = request.form['info']
+	state = request.form['state']
+	phone = request.form['phone']
+
 
 
 	md5 = hashlib.md5()
@@ -70,7 +76,7 @@ def updateAction(id):
 
 	cnx = mysql.connector.connect(user='root',password='root',host='127.0.0.1',port='8889',database='day3')
 	cur = cnx.cursor()
-	cur.execute("update users set username=%s, password=%s, info=%s where id=%s",(username,password,info,id))
+	cur.execute("update users set username=%s, password=%s, info=%s,state=%s,phone=%s where id=%s",(username,password,info,state,phone,id))
 	cnx.commit()
 	return redirect('/protected')
 
@@ -150,7 +156,13 @@ def loginAction():
 		return request.method
 
 
+# @app.route('/<id>/<num>')
+# def index(id,num):
+#	return 'Hello '+id
 
+# @app.route('/uploads/<filename>')
+# def send_file(filename):
+#     return send_from_directory(UPLOAD_FOLDER, filename)
 
 @app.route('/login',methods=['GET','POST'])
 def login():
@@ -167,14 +179,24 @@ def addaction():
 		cur = cnx.cursor()
 		password = request.form["password"]
 		info = request.form['info']
+		state = request.form['state']
+		phone = request.form['phone']
 		md5 = hashlib.md5()
 		md5.update(password)
 		password = md5.hexdigest()
-		cur.execute("insert into users (username, password,info) values (%s,%s,%s)",(request.form['username'],password,info))
+		cur.execute("insert into users (username, password,info,state,phone) values (%s,%s,%s,%s,%s)",(request.form['username'],password,info,state,phone))
 		cnx.commit()
 
 		return redirect('/protected')
 		
+
+
+		# hashed = hashlib.md5()
+		# hashed.update(request.form['password'])
+		# file = request.files['userfile']
+		# filename = secure_filename(file.filename)
+		# file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+		# return 'Name: ' + request.form['username'] + '<br>'+'Password:' + "<p style='color:red'>" + hashed.hexdigest() +"</p>"+'<br>' + '<img src="'+url_for('send_file', filename=filename)+'"/>'
 
 
 
