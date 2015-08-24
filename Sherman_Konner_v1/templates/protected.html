@@ -1,0 +1,61 @@
+<!-- 
+<html>
+
+<body>
+<body>
+		
+		<a href="/addForm">Add User</a>
+		<br>
+		<br>
+		{% for x in data: %}
+		{{ x[1] }}
+		<a href="/updateForm/{{x[0]}}">Edit</a>
+
+		<a href="/delete/{{x[0]}}">Delete</a>
+		<br>
+
+		{% endfor %}
+
+		<form enctype=multipart/form-data action="/logout" method="GET">
+			<input type="submit" value="Logout">
+		</form>
+
+</body>
+</html>
+ -->
+<html>
+   <link rel="stylesheet" href="css/foundation.css" />
+   <style type=text/css>{{ get_resource_as_string('static/foundation.css') }}</style>
+   <style type=text/css>{{ get_resource_as_string('static/my.css') }}</style>
+    <script src="js/vendor/modernizr.js"></script>
+      <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+	<body>
+	<div class="row">
+	<body>
+
+	<div class="large-4 large-centered columns pad">
+		<a href="/addForm">Add User</a>
+		<br>
+		<br>
+		{% for x in data: %}
+		<h3>{{ x[1] }}</h3>
+		<p>{{ x[3]}}</p>
+		<a href="/updateForm/{{x[0]}}">Edit</a>
+		<a href="/show/{{x[0]}}">Show</a>
+
+		<a href="/delete/{{x[0]}}">Delete</a>
+		<br>
+
+		{% endfor %}
+
+		<form enctype=multipart/form-data action="/logout" method="GET">
+			<input type="submit" value="Logout">
+		</form>
+
+    
+</div>
+
+	</div>
+	</body>
+</html>
