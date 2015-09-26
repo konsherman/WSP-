@@ -1,0 +1,90 @@
+html,body{
+	background:url('../img/moonbackground.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	overflow: hidden;
+
+}
+.moon{
+
+	margin: 0px auto;
+
+}
+.clear{
+	clear: both;
+}
+
+.leftText{
+	color: red;
+	margin-top: 182px;
+}
+.rightText{
+	color: green;
+	margin-top: 182px;
+	margin-right: 10px;
+}
+h1{
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+	font-size: 5em;
+	color: white;
+}
+p{
+	font-family: 'Francois One', sans-serif;
+}
+.footer{
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	bottom: 0;
+	background-color: black;
+}
+img{
+	z-index: 2;
+}
+.smallWords{
+	display: none;
+}
+
+@media only screen and (max-width: 500px ) {
+	.moon{
+		width: 317px;
+		height: 308px;
+		margin: 0px auto;
+	}
+    .rightText,.leftText {
+        display: none;
+    }
+    .smallWords{
+    	text-align: center;
+    	color: blue;
+    	display: block;
+    }
+    body,html{
+    	height: 100%;
+
+    }
+}
+@media only screen and (max-width: 640px) {
+
+	.rightText,.leftText{
+		display: none;
+	}
+		.moon{
+		width: 317px;
+		height: 308px;
+		margin: 0px auto;
+	}
+	    .smallWords{
+    	text-align: center;
+    	color: blue;
+    	display: block;
+    }
+    body{
+    	height: 499px;
+
+    }
+	
+}
