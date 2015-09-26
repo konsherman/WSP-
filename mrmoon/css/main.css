@@ -1,10 +1,12 @@
 html,body{
+	background-color: black;
 	background:url('../img/moonbackground.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	overflow: hidden;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+
 
 }
 .moon{
